@@ -1,14 +1,14 @@
 pipeline {
   agent {
     node {
-      label 'worker_node2'
+      label 'worker_node1'
     }
 
   }
   stages {
     stage('source') {
       steps {
-        git 'https://github.com/AckerlyXu/LearningJenkins.git'
+        git 'git@github.com:AckerlyXu/LearningJenkins.git'
       }
     }
 
