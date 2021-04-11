@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('source') {
       steps {
-        git 'git@github.com.cnpmjs.org:AckerlyXu/LearningJenkins.git'
+        git 'https://github.com.cnpmjs.org/AckerlyXu/LearningJenkins.git'
       }
     }
 
